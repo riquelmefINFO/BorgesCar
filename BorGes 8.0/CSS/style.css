@@ -1,0 +1,42 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+input[type="text"] {
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+}
+
+/*.container_form {
+    background-color: white;
+    width: 40%;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 5%;
+}*/
+
+.form1 label {
+    font-size: 20px;
+    font-weight: bold;
+    width: 20%;
+    margin: 1.5%;
+}
+
+.form1 input {
+    font-size: 20px;
+    font-weight: bold;
+    width: 70%;
+    margin: 1.5%;
+}
+.areadetrabalho {
+    background-image: url(Imagens/porsche.jpg);
+    background-color: brown;
+}
