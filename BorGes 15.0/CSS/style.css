@@ -1,0 +1,72 @@
+/** {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+.logo-p {
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+    margin: 0.2%;
+    text-align: center;
+    width: 12%;
+    height: auto;
+    padding: 0;
+}
+
+.logo-p-1 {
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+    margin: 0.2%;
+    text-align: center;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(241, 31, 31);
+}
+
+.barra-p {
+    background-color: rgb(241, 31, 31);
+    box-shadow: inset -1px 1px 45px 1px #000000b9;
+}
+
+.barra-p p {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.btn-barra {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.btn-barra:hover {
+    color: white;
+    background-color: rgb(146, 0, 0);
+    transition: 0.2s;
+}
+
+.btn-barra::after {
+    background-color: black;
+    z-index: 1;
+}
+
+.btn-danger {
+    background-color: rgb(241, 31, 31);
+}
+
+.btn-danger:hover {
+    background-color: rgb(0, 2, 110);
+}
+
+.btn-danger2 {
+    width: 100%;
+    background-color: rgb(119, 0, 0);
+    border: 0;
+}
+
+.btn-danger2:hover {
+    background-color: green;
+}
