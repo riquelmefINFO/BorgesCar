@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f11f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    margin-left: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login > h1{
+    color: white;
+    float: top;
+    text-align: left;
+    margin-top: 90px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 35px;
+    
+    border-radius: 12px;
+    
+}
+
+.card > h1{
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    text-align: right;
+    padding-right: 10px;
+  
+    
+}
+
+.btn {
+    width: 100%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #f11f1f;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgba(0, 0, 0, 0.568);
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.left-login > img{
+    width: 35vw;
+    height: 35vw;
+}
+
+a{
+    width: 100%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #f11f1f;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
